@@ -6,6 +6,8 @@ import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
+import BgVideo from "../images/BgVideo.mp4";
+import thumbnail from "../images/thumbnail.jpeg";
 
 export default function Hero() {
   return (
@@ -95,19 +97,16 @@ export default function Hero() {
           </Typography>
         </Stack>
         <Box
-          id="image"
           sx={(theme) => ({
             mt: { xs: 8, sm: 10 },
             alignSelf: "center",
             height: { xs: 200, sm: 700 },
             width: "100%",
-            backgroundImage:
-              theme.palette.mode === "light"
-                ? 'url("/static/images/templates/templates-images/hero-light.png")'
-                : 'url("/static/images/templates/templates-images/hero-dark.png")',
             backgroundSize: "cover",
+            objectFit: "contain",
             borderRadius: "10px",
             outline: "1px solid",
+            overflow: "hidden !important",
             outlineColor:
               theme.palette.mode === "light"
                 ? alpha("#BFCCD9", 0.5)
@@ -116,8 +115,9 @@ export default function Hero() {
               theme.palette.mode === "light"
                 ? `0 0 12px 8px ${alpha("#9CCCFC", 0.2)}`
                 : `0 0 24px 12px ${alpha("#033363", 0.2)}`,
-          })}
-        />
+          })}>
+          <video src={BgVideo} muted loop autoPlay poster={thumbnail}></video>
+        </Box>
       </Container>
     </Box>
   );
