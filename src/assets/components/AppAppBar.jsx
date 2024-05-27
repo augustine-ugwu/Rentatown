@@ -13,6 +13,7 @@ import Drawer from "@mui/material/Drawer";
 import MenuIcon from "@mui/icons-material/Menu";
 import ToggleColorMode from "./ToggleColorMode";
 import Logo from "../images/rentatown2219.png";
+import { Link } from "react-router-dom";
 
 const logoStyle = {
   width: "90px",
@@ -67,33 +68,45 @@ function AppAppBar({ mode, toggleColorMode }) {
                 ml: "20px",
                 px: 0,
               }}>
-              <img src={Logo} style={logoStyle} alt="logo of rentaown" />
-              <Box sx={{ display: { xs: "none", md: "flex" } }}>
-                <MenuItem sx={{ py: "6px", px: "12px" }}>
-                  <Typography variant="body2" color="text.primary">
-                    Find an Agent
-                  </Typography>
-                </MenuItem>
-                <MenuItem sx={{ py: "6px", px: "12px" }}>
-                  <Typography variant="body2" color="text.primary">
-                    About Us
-                  </Typography>
-                </MenuItem>
-                <MenuItem sx={{ py: "6px", px: "12px" }}>
-                  <Typography variant="body2" color="text.primary">
-                    Blog
-                  </Typography>
-                </MenuItem>
-                <MenuItem sx={{ py: "6px", px: "12px" }}>
-                  <Typography variant="body2" color="text.primary">
-                    Contact
-                  </Typography>
-                </MenuItem>
-                <MenuItem sx={{ py: "6px", px: "12px" }}>
-                  <Typography variant="body2" color="text.primary">
-                    FAQ
-                  </Typography>
-                </MenuItem>
+              <Link to={"/"}>
+                <img src={Logo} style={logoStyle} alt="logo of rentaown" />
+              </Link>
+              <Box sx={{ display: { xs: "none", md: "flex" }, ml: "20px" }}>
+                <Link to={"/findagent"} style={{ textDecoration: "none" }}>
+                  <MenuItem sx={{ py: "6px", px: "12px" }}>
+                    <Typography variant="body2" color="text.primary">
+                      Find an Agent
+                    </Typography>
+                  </MenuItem>
+                </Link>
+                <Link to={"/about"} style={{ textDecoration: "none" }}>
+                  <MenuItem sx={{ py: "6px", px: "12px" }}>
+                    <Typography variant="body2" color="text.primary">
+                      About Us
+                    </Typography>
+                  </MenuItem>
+                </Link>
+                <Link to={"/blog"} style={{ textDecoration: "none" }}>
+                  <MenuItem sx={{ py: "6px", px: "12px" }}>
+                    <Typography variant="body2" color="text.primary">
+                      Blog
+                    </Typography>
+                  </MenuItem>
+                </Link>
+                <Link to={"/contact"} style={{ textDecoration: "none" }}>
+                  <MenuItem sx={{ py: "6px", px: "12px" }}>
+                    <Typography variant="body2" color="text.primary">
+                      Contact
+                    </Typography>
+                  </MenuItem>
+                </Link>
+                <Link to={"/faq"} style={{ textDecoration: "none" }}>
+                  <MenuItem sx={{ py: "6px", px: "12px" }}>
+                    <Typography variant="body2" color="text.primary">
+                      FAQ
+                    </Typography>
+                  </MenuItem>
+                </Link>
               </Box>
             </Box>
             <Box
@@ -149,32 +162,46 @@ function AppAppBar({ mode, toggleColorMode }) {
                       toggleColorMode={toggleColorMode}
                     />
                   </Box>
-                  <MenuItem>Find an Agent</MenuItem>
-                  <MenuItem>About Us</MenuItem>
-                  <MenuItem>Blog</MenuItem>
-                  <MenuItem>Contact</MenuItem>
-                  <MenuItem>FAQ</MenuItem>
-                  <Divider />
-                  <MenuItem>
-                    <Button
-                      color="primary"
-                      variant="contained"
-                      component="a"
-                      target="_blank"
-                      sx={{ width: "100%" }}>
-                      Sign up
-                    </Button>
-                  </MenuItem>
-                  <MenuItem>
-                    <Button
-                      color="primary"
-                      variant="outlined"
-                      component="a"
-                      target="_blank"
-                      sx={{ width: "100%" }}>
-                      Sign in
-                    </Button>
-                  </MenuItem>
+                  <Link to={"/findagent"} style={{ textDecoration: "none" }}>
+                    <MenuItem>Find an Agent</MenuItem>
+                  </Link>
+                  <Link to={"/about"} style={{ textDecoration: "none" }}>
+                    <MenuItem>About Us</MenuItem>
+                  </Link>
+                  <Link to={"/blog"} style={{ textDecoration: "none" }}>
+                    <MenuItem>Blog</MenuItem>
+                  </Link>
+                  <Link to={"/contact"} style={{ textDecoration: "none" }}>
+                    <MenuItem>Contact</MenuItem>
+                  </Link>
+                  <Link to={"/faq"} style={{ textDecoration: "none" }}>
+                    <MenuItem>FAQ</MenuItem>
+                  </Link>
+                  <Divider sx={{ mb: "0.8rem" }} />
+                  <Link to={"/signup"} style={{ textDecoration: "none" }}>
+                    <MenuItem>
+                      <Button
+                        color="primary"
+                        variant="contained"
+                        component="a"
+                        target="_blank"
+                        sx={{ width: "100%" }}>
+                        Sign up
+                      </Button>
+                    </MenuItem>
+                  </Link>
+                  <Link to={"/signin"} style={{ textDecoration: "none" }}>
+                    <MenuItem>
+                      <Button
+                        color="primary"
+                        variant="outlined"
+                        component="a"
+                        target="_blank"
+                        sx={{ width: "100%" }}>
+                        Sign in
+                      </Button>
+                    </MenuItem>
+                  </Link>
                 </Box>
               </Drawer>
             </Box>

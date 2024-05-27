@@ -5,7 +5,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import NotFoundPage from "./routes/NotFoundPage.jsx";
 import HomePage from "./routes/HomePage.jsx";
-import Contact from "./routes/Contact.jsx";
+import Contact from "./routes/ContactPage.jsx";
 import Blog from "./routes/Blog.jsx";
 import FAQ from "./routes/FAQ.jsx";
 import FindAgent from "./routes/FindAgent.jsx";
