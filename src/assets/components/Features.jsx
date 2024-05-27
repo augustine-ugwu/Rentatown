@@ -12,6 +12,9 @@ import ChevronRightRoundedIcon from "@mui/icons-material/ChevronRightRounded";
 import DevicesRoundedIcon from "@mui/icons-material/DevicesRounded";
 import EdgesensorHighRoundedIcon from "@mui/icons-material/EdgesensorHighRounded";
 import ViewQuiltRoundedIcon from "@mui/icons-material/ViewQuiltRounded";
+import listingsImage from "../images/listings.jpg";
+import neighbourhoodImage from "../images/neighbourhood.jpg";
+import applicationImage from "../images/application.jpg";
 
 const items = [
   {
@@ -19,29 +22,21 @@ const items = [
     title: "Extensive Listings",
     description:
       "Browse a wide variety of properties available for rent, lease, or purchase. Detailed descriptions and high-quality images for every listing.",
-    imageLight:
-      'url("/static/images/templates/templates-images/dash-light.png")',
-    imageDark: 'url("/static/images/templates/templates-images/dash-dark.png")',
+    image: `url(${listingsImage})`,
   },
   {
     icon: <EdgesensorHighRoundedIcon />,
     title: "Neighborhood Insights",
     description:
       "Get detailed information about neighborhoods, including schools, parks, and local amenities. User reviews and ratings to help you find a community that feels like home.",
-    imageLight:
-      'url("/static/images/templates/templates-images/mobile-light.png")',
-    imageDark:
-      'url("/static/images/templates/templates-images/mobile-dark.png")',
+    image: `url(${neighbourhoodImage})`,
   },
   {
     icon: <DevicesRoundedIcon />,
     title: "Secure Application Process",
     description:
       "Apply for properties securely online. Track your application status and communicate directly with property owners or managers.",
-    imageLight:
-      'url("/static/images/templates/templates-images/devices-light.png")',
-    imageDark:
-      'url("/static/images/templates/templates-images/devices-dark.png")',
+    image: `url(${applicationImage})`,
   },
 ];
 
@@ -112,16 +107,14 @@ export default function Features() {
             }}>
             <Box
               sx={{
-                backgroundImage: (theme) =>
-                  theme.palette.mode === "light"
-                    ? items[selectedItemIndex].imageLight
-                    : items[selectedItemIndex].imageDark,
+                backgroundImage: items[selectedItemIndex].image,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 minHeight: 280,
+                height: { xs: "200px", sm: "400px", md: "600px" },
               }}
             />
-            <Box sx={{ px: 2, pb: 2 }}>
+            <Box sx={{ px: 2, py: 2 }}>
               <Typography
                 color="text.primary"
                 variant="body2"
@@ -260,14 +253,12 @@ export default function Features() {
             }}>
             <Box
               sx={{
-                m: "auto",
-                width: 420,
-                height: 500,
-                backgroundSize: "contain",
-                backgroundImage: (theme) =>
-                  theme.palette.mode === "light"
-                    ? items[selectedItemIndex].imageLight
-                    : items[selectedItemIndex].imageDark,
+                backgroundImage: items[selectedItemIndex].image,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                minHeight: 280,
+                height: "100%",
+                width: "100%",
               }}
             />
           </Card>

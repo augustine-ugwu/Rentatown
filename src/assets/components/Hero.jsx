@@ -7,7 +7,7 @@ import Stack from "@mui/material/Stack";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import BgVideo from "../images/BgVideo.mp4";
-import thumbnail from "../images/thumbnail.jpeg";
+import thumbnail from "../images/thumbnail.jpg";
 
 export default function Hero() {
   return (
@@ -103,10 +103,9 @@ export default function Hero() {
             height: { xs: 200, sm: 700 },
             width: "100%",
             backgroundSize: "cover",
-            objectFit: "contain",
             borderRadius: "10px",
             outline: "1px solid",
-            overflow: "hidden !important",
+            overflow: "hidden",
             outlineColor:
               theme.palette.mode === "light"
                 ? alpha("#BFCCD9", 0.5)
@@ -116,7 +115,17 @@ export default function Hero() {
                 ? `0 0 12px 8px ${alpha("#9CCCFC", 0.2)}`
                 : `0 0 24px 12px ${alpha("#033363", 0.2)}`,
           })}>
-          <video src={BgVideo} muted loop autoPlay poster={thumbnail}></video>
+          <video
+            src={BgVideo}
+            muted
+            loop
+            autoPlay
+            poster={thumbnail}
+            style={{
+              height: "100%",
+              width: "100%",
+              objectFit: "cover",
+            }}></video>
         </Box>
       </Container>
     </Box>
