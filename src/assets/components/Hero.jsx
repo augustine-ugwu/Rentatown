@@ -34,13 +34,14 @@ export default function Hero() {
           <Typography
             variant="h1"
             sx={{
-              display: "flex",
+              display: "block",
               flexDirection: { xs: "column", md: "row" },
               alignSelf: "center",
               textAlign: "center",
               fontSize: "clamp(3.5rem, 10vw, 4rem)",
             }}>
-            Rent&nbsp;
+            Rent, Buy, Lease <br />
+            &nbsp;
             <Typography
               component="span"
               variant="h1"
