@@ -6,7 +6,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import NotFoundPage from "./routes/NotFoundPage.jsx";
 import HomePage from "./routes/HomePage.jsx";
 import Contact from "./routes/Contact.jsx";
-import About from "./routes/About.jsx";
 import Blog from "./routes/Blog.jsx";
 import FAQ from "./routes/FAQ.jsx";
 import FindAgent from "./routes/FindAgent.jsx";
@@ -14,6 +13,7 @@ import Privacy from "./routes/Privacy.jsx";
 import SignIn from "./routes/SignIn.jsx";
 import SignUp from "./routes/SignUp.jsx";
 import TACs from "./routes/TACs.jsx";
+import AboutPage from "./routes/AboutPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,7 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <About />,
+    element: <AboutPage />,
   },
   {
     path: "/blog",

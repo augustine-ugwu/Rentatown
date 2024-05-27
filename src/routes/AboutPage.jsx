@@ -6,15 +6,9 @@ import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import AppAppBar from "../assets/components/AppAppBar";
-import Hero from "../assets/components/Hero";
-// import LogoCollection from "../assets/components/LogoCollection";
-import Highlights from "../assets/components/Highlights";
-// import Pricing from "../assets/components/Pricing";
-import Features from "../assets/components/Features";
-import Testimonials from "../assets/components/Testimonials";
-import FAQ from "../assets/components/FAQ";
 import Footer from "../assets/components/Footer";
 import Theme from "./Theme";
+import About from "../assets/components/About";
 
 function ToggleCustomTheme() {
   return (
@@ -37,7 +31,7 @@ ToggleCustomTheme.propTypes = {
   toggleCustomTheme: PropTypes.func.isRequired,
 };
 
-export default function HomePage() {
+export default function AboutPage() {
   const [mode, setMode] = React.useState("light");
   const [showCustomTheme, setShowCustomTheme] = React.useState(true);
   const theme = createTheme(Theme(mode));
@@ -55,18 +49,8 @@ export default function HomePage() {
     <ThemeProvider theme={showCustomTheme ? theme : defaultTheme}>
       <CssBaseline />
       <AppAppBar mode={mode} toggleColorMode={toggleColorMode} />
-      <Hero />
+      <About />
       <Box sx={{ bgcolor: "background.default" }}>
-        {/* <LogoCollection /> */}
-        <Features />
-        <Divider />
-        <Testimonials />
-        <Divider />
-        <Highlights />
-        <Divider />
-        {/* <Pricing /> */}
-        <Divider />
-        <FAQ />
         <Divider />
         <Footer />
       </Box>
