@@ -19,7 +19,7 @@ export default function FAQ() {
     <Container
       id="faq"
       sx={{
-        pt: { xs: 4, sm: 12 },
+        pt: { xs: 14, sm: 16 },
         pb: { xs: 8, sm: 16 },
         position: "relative",
         display: "flex",
@@ -84,9 +84,9 @@ export default function FAQ() {
               Rentaown. Virtual tours provide an immersive experience that
               allows you to explore the property from the comfort of your
               current location. Simply click on the virtual tour option
-              available for the property you're interested in, and you'll be
-              guided through a detailed tour of the interior and exterior
-              spaces.
+              available for the property you&apos;re interested in, and
+              you&apos;ll be guided through a detailed tour of the interior and
+              exterior spaces.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -111,7 +111,7 @@ export default function FAQ() {
               includes data on nearby schools, parks, grocery stores,
               restaurants, public transportation options, and more. You can also
               read user reviews and ratings to get a better understanding of the
-              community and decide if it's the right fit for you.
+              community and decide if it&apos;s the right fit for you.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -132,13 +132,13 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: "100%", md: "70%" } }}>
               Applying for a property on Rentaown is easy and straightforward.
-              Once you've found a property that you're interested in, simply
-              click on the "Apply Now" button located on the property listing
-              page. You'll be prompted to fill out an online application form
-              with your personal information, employment details, and rental
-              history. After submitting your application, you can track its
-              status and communicate directly with the property manager or owner
-              through our platform.
+              Once you&apos;ve found a property that you&apos;re interested in,
+              simply click on the &quot;Apply Now&quot; button located on the
+              property listing page. You&apos;ll be prompted to fill out an
+              online application form with your personal information, employment
+              details, and rental history. After submitting your application,
+              you can track its status and communicate directly with the
+              property manager or owner through our platform.
             </Typography>
           </AccordionDetails>
         </Accordion>
