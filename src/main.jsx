@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import NotFoundPage from "./routes/NotFoundPage.jsx";
@@ -14,6 +15,7 @@ import SignIn from "./routes/SignIn.jsx";
 import SignUp from "./routes/SignUp.jsx";
 import TACs from "./routes/TACs.jsx";
 import AboutPage from "./routes/AboutPage.jsx";
+import Listings from "./routes/ListingsPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <AboutPage />,
+  },
+  {
+    path: "/listings",
+    element: <Listings />,
   },
   {
     path: "/blog",

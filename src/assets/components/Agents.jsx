@@ -120,7 +120,7 @@ const agents = [
   },
 ];
 
-const ActionAreaCard = () => {
+const Agents = () => {
   return (
     <Container
       id="contact"
@@ -190,4 +190,4 @@ const ActionAreaCard = () => {
   );
 };
 
-export default ActionAreaCard;
+export default Agents;

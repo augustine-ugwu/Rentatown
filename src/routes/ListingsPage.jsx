@@ -6,15 +6,9 @@ import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import AppAppBar from "../assets/components/AppAppBar";
-import Hero from "../assets/components/Hero";
-// import LogoCollection from "../assets/components/LogoCollection";
-import Highlights from "../assets/components/Highlights";
-// import Pricing from "../assets/components/Pricing";
-import Features from "../assets/components/Features";
-import Testimonials from "../assets/components/Testimonials";
-import FAQ from "../assets/components/FAQ";
 import Footer from "../assets/components/Footer";
 import Theme from "./Theme";
+import { Typography } from "@mui/material";
 import OpenHouses from "../assets/components/OpenHouses";
 import RentaownSuggestions from "../assets/components/RentaownSuggestions";
 import MostViewed from "../assets/components/MostViewed";
@@ -43,7 +37,7 @@ ToggleCustomTheme.propTypes = {
   toggleCustomTheme: PropTypes.func.isRequired,
 };
 
-export default function HomePage() {
+export default function ListingsPage() {
   const [mode, setMode] = React.useState("light");
   const [showCustomTheme, setShowCustomTheme] = React.useState(true);
   const theme = createTheme(Theme(mode));
@@ -61,24 +55,24 @@ export default function HomePage() {
     <ThemeProvider theme={showCustomTheme ? theme : defaultTheme}>
       <CssBaseline />
       <AppAppBar mode={mode} toggleColorMode={toggleColorMode} />
-      <Hero />
-      <Box sx={{ bgcolor: "background.default" }}>
-        {/* <LogoCollection /> */}
-        <Features />
+      <Box sx={{ pt: { xs: 14, sm: 16 } }}>
+        <Typography
+          component="h2"
+          variant="h4"
+          textAlign={{ sm: "left", md: "center" }}
+          mb={2}
+          px={2}>
+          House Listings
+        </Typography>
         <OpenHouses />
         <RentaownSuggestions />
         <MostViewed />
         <NewToMarket />
         <LuxuryHomes />
         <PriceDrop />
-        <Divider />
-        <Testimonials />
-        <Divider />
-        <Highlights />
-        <Divider />
-        {/* <Pricing /> */}
-        <Divider />
-        <FAQ />
+      </Box>
+
+      <Box sx={{ bgcolor: "background.default" }}>
         <Divider />
         <Footer />
       </Box>
