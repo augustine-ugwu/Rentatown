@@ -2,7 +2,7 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
 import IconButton from "@mui/material/IconButton";
-import Link from "@mui/material/Link";
+import { Link } from "react-router-dom";
 import Stack from "@mui/material/Stack";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
@@ -21,7 +21,9 @@ function Copyright() {
   return (
     <Typography variant="body2" color="#4876EE" mt={1}>
       {"Copyright © "}
-      <Link href="/">Rentaown&nbsp;</Link>
+      <Link to={"/"} style={{ textDecoration: "none", color: "Graytext" }}>
+        Rentaown&nbsp;
+      </Link>
       {new Date().getFullYear()}
     </Typography>
   );
@@ -94,19 +96,35 @@ export default function Footer() {
           <Typography variant="body2" fontWeight={600}>
             Product
           </Typography>
-          <Link color="text.secondary" href="#">
+          <Link
+            color="text.secondary"
+            to={"/"}
+            style={{ textDecoration: "none", color: "GrayText" }}>
             Features
           </Link>
-          <Link color="text.secondary" href="#">
+          <Link
+            color="text.secondary"
+            to={"/"}
+            style={{ textDecoration: "none", color: "GrayText" }}>
             Testimonials
           </Link>
-          <Link color="text.secondary" href="#">
+          <Link
+            color="text.secondary"
+            to={"/"}
+            style={{ textDecoration: "none", color: "GrayText" }}>
             Highlights
           </Link>
-          <Link color="text.secondary" href="#">
+          <Link
+            color="text.secondary"
+            to={"/listings"}
+            style={{ textDecoration: "none", color: "GrayText" }}>
             Listings
           </Link>
-          <Link color="text.secondary" href="#">
+
+          <Link
+            color="text.secondary"
+            to={"/faq"}
+            style={{ textDecoration: "none", color: "GrayText" }}>
             FAQs
           </Link>
         </Box>
@@ -119,13 +137,18 @@ export default function Footer() {
           <Typography variant="body2" fontWeight={600}>
             Company
           </Typography>
-          <Link color="text.secondary" href="#">
+          <Link
+            to={"/about"}
+            style={{ textDecoration: "none", color: "GrayText" }}>
             About us
           </Link>
-          <Link color="text.secondary" href="#">
+          <Link to={"/"} style={{ textDecoration: "none", color: "GrayText" }}>
             Blog
           </Link>
-          <Link color="text.secondary" href="#">
+          <Link
+            color="text.secondary"
+            to={"/"}
+            style={{ textDecoration: "none", color: "GrayText" }}>
             Press Release
           </Link>
         </Box>
@@ -138,13 +161,22 @@ export default function Footer() {
           <Typography variant="body2" fontWeight={600}>
             Legal
           </Typography>
-          <Link color="text.secondary" href="#">
+          <Link
+            color="text.secondary"
+            to={"/"}
+            style={{ textDecoration: "none", color: "GrayText" }}>
             Terms
           </Link>
-          <Link color="text.secondary" href="#">
+          <Link
+            color="text.secondary"
+            to={"/"}
+            style={{ textDecoration: "none", color: "GrayText" }}>
             Privacy
           </Link>
-          <Link color="text.secondary" href="#">
+          <Link
+            color="text.secondary"
+            to={"/contact"}
+            style={{ textDecoration: "none", color: "GrayText" }}>
             Contact
           </Link>
         </Box>
@@ -159,13 +191,19 @@ export default function Footer() {
           borderColor: "divider",
         }}>
         <div>
-          <Link color="text.secondary" href="#">
+          <Link
+            color="text.secondary"
+            to={"/"}
+            style={{ textDecoration: "none", color: "GrayText" }}>
             Privacy Policy
           </Link>
           <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
             &nbsp;•&nbsp;
           </Typography>
-          <Link color="text.secondary" href="#">
+          <Link
+            color="text.secondary"
+            to={"/"}
+            style={{ textDecoration: "none", color: "GrayText" }}>
             Terms of Service
           </Link>
           <Copyright />
@@ -175,28 +213,29 @@ export default function Footer() {
           justifyContent="left"
           spacing={1}
           useFlexGap
-          sx={{
-            color: "text.secondary",
-          }}>
+          style={{ textDecoration: "none", color: "GrayText" }}>
           <IconButton
             color="inherit"
-            href="/"
+            to={"/"}
             aria-label="GitHub"
-            sx={{ alignSelf: "center" }}>
+            sx={{ alignSelf: "center" }}
+            style={{ textDecoration: "none", color: "GrayText" }}>
             <FacebookIcon />
           </IconButton>
           <IconButton
             color="inherit"
-            href="/"
+            to={"/"}
             aria-label="X"
-            sx={{ alignSelf: "center" }}>
+            sx={{ alignSelf: "center" }}
+            style={{ textDecoration: "none", color: "GrayText" }}>
             <TwitterIcon />
           </IconButton>
           <IconButton
             color="inherit"
-            href="/"
+            to={"/"}
             aria-label="LinkedIn"
-            sx={{ alignSelf: "center" }}>
+            sx={{ alignSelf: "center" }}
+            style={{ textDecoration: "none", color: "GrayText" }}>
             <LinkedInIcon />
           </IconButton>
         </Stack>
