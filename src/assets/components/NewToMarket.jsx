@@ -57,7 +57,7 @@ const NewToMarket = () => {
           p={1.2}
           color="text.primary"
           fontWeight={600}>
-          Most Viewed
+          New to Market
         </Typography>
         <Box sx={{ width: "100%", flexGrow: 1, overflow: "hidden" }}>
           {" "}
