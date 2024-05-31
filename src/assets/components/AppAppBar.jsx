@@ -13,12 +13,19 @@ import Drawer from "@mui/material/Drawer";
 import MenuIcon from "@mui/icons-material/Menu";
 import ToggleColorMode from "./ToggleColorMode";
 import Logo from "../images/rentatown2219.png";
+import RentaownLogo from "../images/RentaownLogo.svg";
 import { Link } from "react-router-dom";
 
 const logoStyle = {
   width: "90px",
   height: "auto",
   cursor: "pointer",
+};
+
+const rentaownLogoStyle = {
+  width: "30px",
+  paddingRight: "6px",
+  height: "auto",
 };
 
 function AppAppBar({ mode, toggleColorMode }) {
@@ -69,6 +76,11 @@ function AppAppBar({ mode, toggleColorMode }) {
                 px: 0,
               }}>
               <Link to={"/"}>
+                <img
+                  src={RentaownLogo}
+                  style={rentaownLogoStyle}
+                  alt="logo of rentaown"
+                />
                 <img src={Logo} style={logoStyle} alt="logo of rentaown" />
               </Link>
               <Box sx={{ display: { xs: "none", md: "flex" }, ml: "20px" }}>

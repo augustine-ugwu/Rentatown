@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW 2021 (64-Bit) -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="3.9796in" height="2.63548in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 616.66 408.38"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="3.92932in" height="2.60301in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 602.88 399.38"
  xmlns:xlink="http://www.w3.org/1999/xlink"
  xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
  <defs>
-  <font id="FontID0" horiz-adv-x="799" font-variant="normal" class="str3" style="fill-rule:nonzero" font-style="normal" font-weight="700">
+  <font id="FontID0" horiz-adv-x="799" font-variant="normal" class="str1" style="fill-rule:nonzero" font-style="normal" font-weight="700">
 	<font-face 
 		font-family="PolySans Bulky Wide">
 		<font-face-src>
@@ -27,41 +27,30 @@ viewBox="0 0 616.66 408.38"
   <style type="text/css">
    <![CDATA[
     @font-face { font-family:"PolySans Bulky Wide";font-variant:normal;font-style:normal;font-weight:bold;src:url("#FontID0") format(svg)}
-    .str3 {stroke-width:14.39;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
-    .str5 {stroke-width:7.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
-    .str1 {stroke:white;stroke-width:1.61;stroke-miterlimit:22.9256}
-    .str2 {stroke:white;stroke-width:12.91;stroke-miterlimit:22.9256}
-    .str0 {stroke:white;stroke-width:1.22;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
-    .str6 {stroke:white;stroke-width:1.22;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.61313}
-    .str4 {stroke:white;stroke-width:0.46;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
-    .fil1 {fill:none;fill-rule:nonzero}
-    .fil2 {fill:white}
-    .fil0 {fill:white;fill-rule:nonzero}
-    .fnt0 {font-weight:bold;font-size:32.31px;font-family:'PolySans Bulky Wide'}
-    .fnt1 {font-weight:bold;font-size:59.57px;font-family:'PolySans Bulky Wide'}
+    .str1 {stroke-width:14.39;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str4 {stroke-width:7.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str0 {stroke:#4876EE;stroke-width:8.52;stroke-miterlimit:22.9256}
+    .str3 {stroke:#4876EE;stroke-width:1.21;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str2 {stroke:#4876EE;stroke-width:0.46;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .fil1 {fill:#4876EE}
+    .fil0 {fill:#4876EE;fill-rule:nonzero}
+    .fnt0 {font-weight:bold;font-size:31.99px;font-family:'PolySans Bulky Wide'}
+    .fnt1 {font-weight:bold;font-size:58.99px;font-family:'PolySans Bulky Wide'}
    ]]>
   </style>
  </defs>
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <g>
-   <polygon class="fil0" points="251.86,10.13 251.86,10.11 253.55,8.63 "/>
-   <path id="_1" class="fil1 str0" d="M251.86 10.13l0 -0.02 1.68 -1.48m-1.68 1.5z"/>
-  </g>
-  <line class="fil1 str0" x1="126.02" y1="121.42" x2="105.08" y2= "139.94" />
-  <line class="fil1 str1" x1="251.96" y1="34.88" x2="251.91" y2= "34.93" />
-  <polygon class="fil0 str2" points="610.19,401.13 302.73,401.62 267.66,401.66 252.51,401.69 219.4,401.75 126.46,401.89 105.5,401.92 105.48,383.81 105.22,224.84 105.22,218.61 44.75,218.15 16.9,217.94 40.69,196.9 47.87,190.53 47.89,190.53 61.6,178.39 61.63,178.39 100.7,143.82 100.72,143.82 105.08,139.94 126.02,121.45 126.02,121.42 218.82,39.34 237.92,22.46 251.86,10.13 253.55,8.63 267.06,20.57 267.06,21.54 267.59,21.05 302.18,51.62 409.06,146.18 448.86,181.36 462.83,193.72 470.15,200.18 494.35,221.59 462.79,221.36 438.59,199.95 431.27,193.46 417.3,181.11 377.52,145.92 302.22,79.33 267.1,48.28 251.96,34.88 251.91,34.84 251.91,34.93 218.87,64.16 128.56,144.03 126.05,146.24 105.13,164.76 89.47,178.59 75.74,190.74 68.56,197.11 105.17,197.39 126.14,197.55 126.16,218.77 126.19,225 126.44,383.77 219.38,383.63 252.46,383.56 267.63,383.54 302.71,383.49 610.17,383.01 "/>
-  <line class="fil1 str1" x1="267.59" y1="21.05" x2="267.06" y2= "20.57" />
-  <line class="fil1 str1" x1="251.86" y1="10.13" x2="251.86" y2= "10.11" />
-  <text x="177.22" y="350.06"  class="fil2 str4 fnt0">RENT </text>
-  <text x="316.05" y="350.06"  class="fil2 str4 fnt0">LEASE </text>
-  <text x="471.84" y="350.06"  class="fil2 str4 fnt0">OWN</text>
-  <circle class="fil2 str0" cx="295.27" cy="338.69" r="4.57"/>
-  <circle class="fil2 str0" cx="452.21" cy="338.69" r="4.57"/>
-  <text x="176.01" y="320.15"  class="fil2 str4 fnt1">RENTAOWN</text>
-  <rect class="fil2 str6" x="217.6" y="144.32" width="36.43" height="36.43" rx="4.46" ry="4.21"/>
-  <rect class="fil2 str6" x="266.68" y="144.32" width="36.43" height="36.43" rx="4.46" ry="4.21"/>
-  <rect class="fil2 str6" x="266.68" y="190.69" width="36.43" height="36.43" rx="4.46" ry="4.21"/>
-  <rect class="fil2 str6" x="217.6" y="190.69" width="36.43" height="36.43" rx="4.46" ry="4.21"/>
+  <polygon class="fil0 str0" points="598.61,394.34 294.17,394.82 259.45,394.87 244.45,394.89 211.66,394.96 119.64,395.09 98.88,395.12 98.86,377.19 98.61,219.78 98.61,213.61 38.73,213.15 11.16,212.95 34.71,192.12 41.82,185.81 41.84,185.81 55.42,173.78 55.44,173.78 94.13,139.56 94.15,139.56 98.47,135.72 119.21,117.4 119.21,117.38 211.09,36.1 230,19.39 243.81,7.18 245.48,5.7 258.85,17.52 258.85,18.48 259.38,18 293.63,48.27 399.46,141.89 438.87,176.73 452.7,188.96 459.95,195.37 483.91,216.56 452.66,216.33 428.7,195.14 421.45,188.71 407.62,176.48 368.23,141.64 293.67,75.7 258.9,44.95 243.9,31.69 243.85,31.65 243.85,31.74 211.14,60.68 121.72,139.76 119.23,141.96 98.51,160.29 83.01,173.99 69.41,186.01 62.3,192.33 98.56,192.6 119.32,192.76 119.34,213.77 119.37,219.94 119.62,377.15 211.64,377.01 244.4,376.94 259.42,376.92 294.15,376.87 598.59,376.39 "/>
+  <text x="169.89" y="343.77"  class="fil1 str2 fnt0">RENT </text>
+  <text x="307.36" y="343.77"  class="fil1 str2 fnt0">LEASE </text>
+  <text x="461.62" y="343.77"  class="fil1 str2 fnt0">OWN</text>
+  <circle class="fil1 str3" cx="286.78" cy="332.51" r="4.53"/>
+  <circle class="fil1 str3" cx="442.18" cy="332.51" r="4.53"/>
+  <text x="168.7" y="314.15"  class="fil1 str2 fnt1">RENTAOWN</text>
+  <rect class="fil1" x="206.55" y="135.34" width="33.59" height="33.59" rx="4.11" ry="3.88"/>
+  <rect class="fil1" x="251.79" y="135.34" width="33.59" height="33.59" rx="4.11" ry="3.88"/>
+  <rect class="fil1" x="251.79" y="178.09" width="33.59" height="33.59" rx="4.11" ry="3.88"/>
+  <rect class="fil1" x="206.55" y="178.09" width="33.59" height="33.59" rx="4.11" ry="3.88"/>
  </g>
 </svg>

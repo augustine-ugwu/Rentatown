@@ -11,9 +11,16 @@ import FacebookIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/X";
 import Logo from "../images/rentatown2219.png";
+import RentaownLogo from "../images/RentaownLogo.svg";
 
 const logoStyle = {
   width: "140px",
+  height: "auto",
+};
+
+const rentaownLogoStyle = {
+  width: "40px",
+  paddingRight: "6px",
   height: "auto",
 };
 
@@ -56,6 +63,11 @@ export default function Footer() {
           }}>
           <Box sx={{ width: { xs: "100%", sm: "60%" } }}>
             <Box>
+              <img
+                src={RentaownLogo}
+                style={rentaownLogoStyle}
+                alt="logo of rentaown"
+              />
               <img src={Logo} style={logoStyle} alt="logo of rentaown" />
             </Box>
             <Typography variant="body2" fontWeight={600} gutterBottom>
