@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import NotFoundPage from "./routes/NotFoundPage.jsx";
 import HomePage from "./routes/HomePage.jsx";
 import Contact from "./routes/ContactPage.jsx";
-import Blog from "./routes/Blog.jsx";
+import BlogPage from "./routes/BlogPage.jsx";
 import FAQ from "./routes/FaqPage.jsx";
 import FindAgent from "./routes/FindAgent.jsx";
 import Privacy from "./routes/Privacy.jsx";
@@ -33,7 +33,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/blog",
-    element: <Blog />,
+    element: <BlogPage />,
   },
   {
     path: "/contact",
