@@ -139,18 +139,19 @@ export default function Blog() {
       }}>
       <Box
         sx={{
-          width: { sm: "100%" },
+          width: { xs: "100%" },
         }}>
         <Typography
           component="h2"
           variant="h4"
-          textAlign={{ sm: "left", md: "center" }}
+          textAlign={{ xs: "left", md: "center" }}
           mb={2}>
           Home Sweet Homes
         </Typography>
         <Typography
           variant="h6"
-          sx={{ color: "grey.600", textAlign: "center" }}>
+          textAlign={{ xs: "left", md: "center" }}
+          sx={{ color: "grey.600" }}>
           There&apos;s no place like it.
         </Typography>
       </Box>
