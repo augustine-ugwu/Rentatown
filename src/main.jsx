@@ -16,6 +16,7 @@ import SignUp from "./routes/SignUp.jsx";
 import TACs from "./routes/TACs.jsx";
 import AboutPage from "./routes/AboutPage.jsx";
 import Listings from "./routes/ListingsPage.jsx";
+import { ThemeContextProvider } from "./context/ThemeContext.jsx";
 
 const router = createBrowserRouter([
   {
@@ -67,6 +68,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <ThemeContextProvider>
+      <RouterProvider router={router} />
+    </ThemeContextProvider>
   </React.StrictMode>
 );
