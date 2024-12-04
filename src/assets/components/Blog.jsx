@@ -146,7 +146,7 @@ export default function Blog() {
           variant="h4"
           textAlign={{ xs: "left", md: "center" }}
           mb={2}>
-          Home Sweet Homes
+          Read Our Blog Posts
         </Typography>
         <Typography
           variant="h6"

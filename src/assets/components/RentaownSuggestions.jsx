@@ -41,7 +41,7 @@ const RentaownSuggestions = () => {
       maxWidth="xl"
       id="houselistings"
       sx={{
-        pb: { xs: 8, sm: 6 },
+        py: { xs: 8, sm: 6 },
         position: "relative",
         display: "flex",
         flexDirection: "column",
