@@ -175,19 +175,39 @@ function AppAppBar({ mode, toggleColorMode }) {
                     />
                   </Box>
                   <Link to={"/findagent"} style={{ textDecoration: "none" }}>
-                    <MenuItem>Find an Agent</MenuItem>
+                    <MenuItem>
+                      <Typography variant="body2" color="text.primary">
+                        Find an Agent
+                      </Typography>
+                    </MenuItem>
                   </Link>
                   <Link to={"/about"} style={{ textDecoration: "none" }}>
-                    <MenuItem>About Us</MenuItem>
+                    <MenuItem>
+                      <Typography variant="body2" color="text.primary">
+                        About Us
+                      </Typography>
+                    </MenuItem>
                   </Link>
                   <Link to={"/blog"} style={{ textDecoration: "none" }}>
-                    <MenuItem>Blog</MenuItem>
+                    <MenuItem>
+                      <Typography variant="body2" color="text.primary">
+                        Blog
+                      </Typography>
+                    </MenuItem>
                   </Link>
                   <Link to={"/contact"} style={{ textDecoration: "none" }}>
-                    <MenuItem>Contact</MenuItem>
+                    <MenuItem>
+                      <Typography variant="body2" color="text.primary">
+                        Contact
+                      </Typography>
+                    </MenuItem>
                   </Link>
                   <Link to={"/faq"} style={{ textDecoration: "none" }}>
-                    <MenuItem>FAQ</MenuItem>
+                    <MenuItem>
+                      <Typography variant="body2" color="text.primary">
+                        FAQ
+                      </Typography>
+                    </MenuItem>
                   </Link>
                   <Divider sx={{ mb: "0.8rem" }} />
                   <Link to={"/signup"} style={{ textDecoration: "none" }}>
